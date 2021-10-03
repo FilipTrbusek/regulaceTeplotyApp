@@ -1,9 +1,9 @@
-let teplota = 23;
+let temperature = 44;
 
-if (teplota <= 10) {
-  console.log("Je chladno.");
-} else if (teplota > 11 && teplota < 26) {
-  console.log("Je teplo.");
+if (temperature <= 10) {
+  console.log("Is cold.");
+} else if (temperature > 11 && temperature < 26) {
+  console.log("Is warm.");
 } else {
-  console.log("Je horko.");
+  console.log("Is hot.");
 }
